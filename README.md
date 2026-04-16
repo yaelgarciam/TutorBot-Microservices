@@ -228,16 +228,15 @@ If Ollama does not have the `llama3` model available, the project still reaches 
 - Because of that, `GET /api/v1/evaluations/301` returns `404` until a new evaluation is created.
 - Oracle was validated with `localhost:1522` on the host mapped to container port `1521`.
 
-## Evidence Placeholders
-Add your real screenshots here after running the project:
+## Evidence
 
-- `[Insert screenshot here]` Oracle container showing `DATABASE IS READY TO USE!`
-- `[Insert screenshot here]` `evaluator-service` startup logs
-- `[Insert screenshot here]` `gap-detector-service` startup logs
-- `[Insert screenshot here]` successful evaluator-service requests
-- `[Insert screenshot here]` successful gap-detector-service requests
-- `[Insert screenshot here]` RabbitMQ Management UI with the queues
-- `[Insert screenshot here]` event-driven flow logs for `student.answered` and `evaluation.completed`
+![](TutorBot/tutorbot-campus/evidence/Ev1.png)
+
+![](TutorBot/tutorbot-campus/evidence/Ev2.png)
+
+![](TutorBot/tutorbot-campus/evidence/Ev3.png)
+
+![](TutorBot/tutorbot-campus/evidence/Ev4.png)
 
 ## Authors
 
